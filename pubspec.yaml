@@ -1,0 +1,129 @@
+name: my_store
+description: A new Flutter project.
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.5.2 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  cupertino_icons:
+  carousel_pro:
+  flutter_swiper :
+  carousel_slider:
+  badges:
+  http:
+  overlay_support: ^1.2.0-nullsafety.0
+  rflutter_alert: ^2.0.2
+  flutter_easyloading: ^2.2.2
+  select_dialog:
+  font_awesome_flutter:
+  fluttertoast:
+  custom_radio:
+  flutter_rating_bar:
+  page_transition:
+  flutter_spinkit:
+  fancy_on_boarding:
+  shared_preferences:
+  provider:
+  url_launcher:
+  bubble_bottom_bar:
+  flutter_slidable:
+  shimmer:
+  awesome_dialog:
+  sizer:
+  cached_network_image:
+  infinite_scroll_pagination:
+  simple_animations:
+  image_picker:
+  passwordfield:
+  numberpicker:
+  flutter_slider_drawer:
+  datetime_picker_formfield:
+  my_fatoorah:
+  flutter_datetime_picker:
+  time_picker_widget:
+  myfatoorah_flutter:
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: "^0.7.3"
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/logo.png"
+
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/
+    - assets/languages/
+    - assets/category/
+    - assets/deal_of_the_day/
+    - assets/home_slider/
+    - assets/json/
+    - assets/products/
+    - assets/logo.png
+    - assets/user_profile/
+    - assets/country_flag/
+    - assets/category_grid/
+    - assets/payment_icon/
+    - assets/onboarding/
+
+  fonts:
+    - family: Lemonada
+      fonts:
+        - asset: fonts/lemonada/Lemonada-VariableFont_wght.ttf
+          weight: 500
+    - family: Cairo
+      fonts:
+        - asset: fonts/cairo/Cairo-Bold.ttf
+          weight: 500
+    - family: Francois One
+      fonts:
+        - asset: fonts/FrancoisOne-Regular.ttf
+          weight: 400
+    - family: Alatsi
+      fonts:
+        - asset: fonts/Alatsi-Regular.ttf
+          weight: 400
+    - family: Kaushan Script
+      fonts:
+        - asset: fonts/KaushanScript-Regular.ttf
+          weight: 400
+    - family: Pacifico
+      fonts:
+        - asset: fonts/Pacifico-Regular.ttf
+          weight: 400
+    - family: Jost
+      fonts:
+        - asset: fonts/Jost-VariableFont_wght.ttf
+          weight: 700
+    - family: Signika Negative
+      fonts:
+        - asset: fonts/signika_negative/SignikaNegative-Regular.ttf
+        - asset: fonts/signika_negative/SignikaNegative-Bold.ttf
+          weight: 700
